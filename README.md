@@ -1,0 +1,1 @@
+Worldbuilding about uplifted species and sub-light propulsion-based space travel. Created by Derkune. Usage of concepts and assets is allowed, but attribution is absolutely required. Worldbuilding, writing, and graphics by Derkune. HTML generated in collaboration with Gemini.
