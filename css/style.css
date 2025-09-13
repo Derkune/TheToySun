@@ -228,3 +228,49 @@ body {
     line-height: 1.6;
     /* Uses the default text color from the body style */
 }
+
+/* PART 7: Ship Class Manufacturing Table Styles */
+#class-manufacturing {
+    margin-top: 50px;
+    margin-bottom: 50px; /* Add some space at the very end of the page */
+}
+
+#class-manufacturing h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 2em;
+    margin-bottom: 25px;
+}
+
+#class-manufacturing table {
+    border-collapse: collapse;
+    font-size: 1.5em; /* Made symbols a bit larger for clarity */
+}
+
+#class-manufacturing th, #class-manufacturing td {
+    border: 2px solid #555;
+    padding: 12px 15px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+}
+
+/* Header cells (top row and first column) */
+#class-manufacturing th {
+    background-color: #222;
+    color: #fff;
+    font-size: 0.8em; /* Font size for the letters so the symbols stand out more */
+    font-weight: bold;
+}
+
+/* --- MANUFACTURING CELL COLORS --- */
+/* Yes (Can manufacture) */
+.mfg-yes {
+    background-color: #a7c957; /* Pale Green */
+    color: #000000;
+}
+/* No (Cannot manufacture) */
+.mfg-no {
+    background-color: #bc4749; /* Pale Red */
+    color: #ffffff;
+}
