@@ -193,3 +193,38 @@ body {
 .rel-c { background-color: #8e7dbe; color: #ffffff; }
 /* Total War */
 .rel-t { background-color: #e63946; color: #ffffff; }
+
+/* PART 6: Ship Classes Styles */
+#ship-classes {
+    margin-top: 50px;
+}
+
+#ship-classes h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 2em;
+    margin-bottom: 25px;
+}
+
+.ship-item {
+    display: flex;
+    align-items: center; /* Vertically centers the ship and its description */
+    gap: 25px; /* Space between the image and the text */
+    margin-bottom: 40px; /* Space between each ship class block */
+}
+
+.ship-item img {
+    flex-shrink: 0; /* Prevents the image from shrinking */
+}
+
+.ship-description h3 {
+    margin-top: 0;
+    font-size: 1.8em;
+    color: #ffffff;
+}
+
+.ship-description p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    /* Uses the default text color from the body style */
+}
