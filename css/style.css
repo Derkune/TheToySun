@@ -144,3 +144,52 @@ body {
 .race-6-text p { color: rgb(255, 160, 122); } /* Light Salmon / Orange */
 .race-7-text p { color: rgb(175, 238, 238); } /* Pale Turquoise */
 .race-8-text p { color: rgb(211, 211, 211); } /* Light Gray */
+
+/* PART 5: Race Relations Table Styles */
+#race-relations {
+    margin-top: 50px;
+}
+
+#race-relations h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 2em;
+    margin-bottom: 25px;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center; /* Centers the table horizontally */
+}
+
+#race-relations table {
+    border-collapse: collapse; /* Merges cell borders */
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#race-relations th, #race-relations td {
+    border: 2px solid #555;
+    padding: 12px 15px;
+    text-align: center;
+    width: 40px; /* Ensures cells are square */
+    height: 40px;
+}
+
+/* Header cells (top row and first column) */
+#race-relations th {
+    background-color: #222;
+    color: #fff;
+}
+
+/* --- RELATIONSHIP CELL COLORS --- */
+/* Friendly */
+.rel-f { background-color: #2a9d8f; color: #ffffff; }
+/* Neutral */
+.rel-n { background-color: #e9c46a; color: #000000; }
+/* Hostile */
+.rel-h { background-color: #e76f51; color: #ffffff; }
+/* Complicated */
+.rel-c { background-color: #8e7dbe; color: #ffffff; }
+/* Total War */
+.rel-t { background-color: #e63946; color: #ffffff; }
