@@ -300,3 +300,14 @@ footer a:hover {
     text-decoration: underline;
     color: #ffffff;
 }
+
+/* Style for small indicator text below a title */
+.scroll-indicator,
+.tooltip-indicator {
+    text-align: center;
+    color: #888; /* A dimmer grey color */
+    font-style: italic;
+    font-size: 0.9em;
+    margin-top: -15px; /* Negative margin to pull it closer to the title */
+    margin-bottom: 15px; /* Space between the text and the container */
+}
