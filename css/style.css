@@ -95,3 +95,52 @@ body {
 .map-container img {
     max-width: none;
 }
+
+/* PART 4: Species Descriptions Styles */
+#species {
+    margin-top: 50px;
+}
+
+#species h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 2em;
+    margin-bottom: 25px;
+}
+
+.race-item {
+    display: flex; /* Enables Flexbox layout */
+    align-items: center; /* Aligns items to the top */
+    gap: 25px; /* Creates a space between the image and the text */
+    margin-bottom: 50px; /* Space between each race description block */
+}
+
+.race-item img {
+    flex-shrink: 0; /* Prevents the image from shrinking if the container is narrow */
+}
+
+.race-description h3 {
+    margin-top: 0;
+    font-size: 1.8em;
+    color: #ffffff;
+}
+
+.race-description p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
+/* --- EDITABLE RACE TEXT COLORS --- */
+/* Change the 8 color values below to tint the text for each race. */
+/* I have chosen some placeholder colors that are light and readable. */
+
+.race-1-text p { color: rgb(173, 216, 230); } /* Light Blue */
+.race-2-text p { color: rgb(144, 238, 144); } /* Light Green */
+.race-3-text p { color: rgb(240, 230, 140); } /* Khaki / Pale Yellow */
+.race-4-text p { color: rgb(255, 182, 193); } /* Light Pink */
+.race-5-text p { color: rgb(216, 191, 216); } /* Thistle / Light Purple */
+.race-6-text p { color: rgb(255, 160, 122); } /* Light Salmon / Orange */
+.race-7-text p { color: rgb(175, 238, 238); } /* Pale Turquoise */
+.race-8-text p { color: rgb(211, 211, 211); } /* Light Gray */
