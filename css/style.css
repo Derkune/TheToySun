@@ -1,0 +1,29 @@
+/* General Body and Page Styles */
+body {
+    background-color: #000000; /* Pure black background */
+    color: #cccccc; /* Light grey text for good contrast on black */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* A clean, modern font stack */
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Content Container */
+.main-container {
+    max-width: 960px;  /* Prevents content from becoming too wide on large screens */
+    margin: 40px auto; /* Centers the container horizontally with space on top/bottom */
+    padding: 20px;     /* Space inside the container */
+}
+
+/* PART 1: Title and Introduction Styles */
+#introduction h1 {
+    color: #ffffff;
+    font-size: 2.5em; /* 'em' is a scalable unit */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#introduction p {
+    font-size: 1.1em;
+    line-height: 1.6; /* Improves readability */
+    text-align: justify;
+}
