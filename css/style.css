@@ -27,3 +27,46 @@ body {
     line-height: 1.6; /* Improves readability */
     text-align: justify;
 }
+
+/* PART 2: Contents Styles */
+#contents {
+    margin-top: 50px; /* Adds space between the intro and contents */
+    padding: 20px;
+    border: 1px solid #333; /* A subtle border to frame the contents */
+    border-radius: 8px;
+    background-color: #080808; /* A slightly off-black to distinguish it */
+}
+
+#contents h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 2em;
+}
+
+#contents nav ul {
+    list-style-type: none; /* Removes the default bullet points */
+    padding-left: 0; /* Removes default indentation */
+}
+
+#contents nav ul li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+/* Style for the nested lists (races and ship classes) */
+#contents nav ul ul {
+    padding-left: 30px; /* Indents the sub-items */
+    margin-top: 10px; /* Space above the nested list */
+}
+
+#contents nav a {
+    color: #9e9eff; /* A light blue/purple for links */
+    text-decoration: none; /* Removes the default underline */
+    font-size: 1.2em;
+}
+
+#contents nav a:hover {
+    text-decoration: underline; /* Adds underline on hover for clarity */
+    color: #ffffff;
+}
