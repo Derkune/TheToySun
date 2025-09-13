@@ -70,3 +70,28 @@ body {
     text-decoration: underline; /* Adds underline on hover for clarity */
     color: #ffffff;
 }
+
+/* PART 3: Star System Map Styles */
+#star-system-map {
+    margin-top: 50px; /* Space above the map section */
+}
+
+#star-system-map h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 2em;
+    margin-bottom: 25px;
+}
+
+.map-container {
+    max-width: 100%; /* Ensures the container fits within the main page layout */
+    overflow-x: scroll; /* This is the key property that adds the horizontal scrollbar */
+    border: 1px solid #555; /* A subtle border to indicate this is a distinct element */
+    background-color: #030303; /* A near-black background for the scroll area */
+}
+
+/* This rule ensures the image itself is not scaled down by the browser,
+   forcing the container to scroll instead. */
+.map-container img {
+    max-width: none;
+}
