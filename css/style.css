@@ -274,3 +274,29 @@ body {
     background-color: #bc4749; /* Pale Red */
     color: #ffffff;
 }
+
+/* PART 8: Footer Styles */
+footer {
+    text-align: center;
+    margin: 60px auto 40px auto; /* Adds space above and below the footer */
+    padding-top: 20px;
+    max-width: 960px; /* Keeps it aligned with the main content container */
+    border-top: 1px solid #333; /* A subtle line to separate it from the content */
+}
+
+footer p {
+    color: #888; /* A dimmer grey to make it less prominent */
+    font-size: 0.9em;
+    margin: 5px 0;
+}
+
+footer a {
+    color: #9e9eff; /* Uses the same link color as the contents section */
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
